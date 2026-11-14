@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+:root{font-family:Inter,system-ui,sans-serif;color:#EAE4D8;background:#090B10}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 65% 0%,#222C3A 0%,#090B10 58%);min-height:100vh}button,select{font:inherit}button{cursor:pointer;border:1px solid #454B57;background:#181D29;color:#EAE4D8;border-radius:8px;padding:11px 17px;font-weight:650}button:hover{background:#303847;border-color:#D5AC61}button.primary{background:#D95D39;border-color:#D95D39;color:#FFFFFF}button.primary:hover{background:#EF7955}button:disabled{opacity:.35;cursor:not-allowed}.shell{max-width:1390px;margin:auto;padding:22px 30px 65px}.header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #3A404B;padding-bottom:20px;gap:12px}.logo{font-weight:800;letter-spacing:.15em;font-size:20px}.logo span{color:#D5AC61}.eyebrow,.mono,.metric small,.tag,.step{font-family:'DM Mono',monospace;letter-spacing:.09em}.eyebrow{color:#D5AC61;font-size:11px;text-transform:uppercase}.tag{color:#A9A4A0;font-size:11px}.step{font-size:11px;color:#8995A5}h1{font-size:clamp(34px,5vw,64px);line-height:1.05;letter-spacing:-.05em;margin:14px 0}h2{font-size:26px;letter-spacing:-.035em;margin:10px 0 18px}h3{font-size:15px;margin:0 0 10px}.muted{color:#A9A4A0;line-height:1.65}.panel{background:rgba(14,27,47,.92);border:1px solid #343A46;border-radius:14px;padding:23px}.hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;min-height:67vh}.hero p{max-width:560px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.orbit{height:420px;position:relative;display:grid;place-items:center;overflow:hidden}.orbit:before,.orbit:after{content:'';position:absolute;border:1px solid #5A4937;border-radius:50%;width:330px;height:330px;transform:rotate(-25deg) scaleY(.48)}.orbit:after{width:460px;height:460px;transform:rotate(35deg) scaleY(.55);border-style:dashed}.planet{width:170px;height:170px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#E0C28C,#8C6847 45%,#29313D 76%,#090B10);box-shadow:0 0 75px #D5AC6133, inset -20px -12px 35px #10151E;z-index:1}.orbiter{position:absolute;left:73%;top:21%;font-size:48px;transform:rotate(-30deg);filter:drop-shadow(0 0 18px #D5AC61)}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.mission-card{text-align:left;min-height:235px;display:flex;flex-direction:column;justify-content:space-between}.mission-card h2{margin:10px 0}.mission-card:hover{transform:translateY(-2px)}.planet-icon{font-size:58px}.topline{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:22px 0 30px}.designer{display:grid;grid-template-columns:minmax(270px,1fr) minmax(320px,1.2fr) minmax(260px,.9fr);gap:14px;align-items:start}.category{margin-bottom:16px}.category label{display:block;color:#B5AFA5;font-size:12px;margin-bottom:7px}.category select{width:100%;background:#10141D;border:1px solid #50535A;border-radius:7px;color:#EAE4D8;padding:11px;min-height:42px}.instrument{display:flex;align-items:center;gap:9px;font-size:13px;padding:8px 0;border-bottom:1px solid #343A46}.instrument input{accent-color:#D95D39}.metric{background:#121722;border:1px solid #343A46;padding:12px;border-radius:8px}.metric small{display:block;color:#A9A4A0;font-size:10px;margin-bottom:7px}.metric strong{font-size:21px}.metric em{font-size:11px;color:#8995A5;font-style:normal}.meter{height:5px;background:#383D47;border-radius:10px;margin-top:10px;overflow:hidden}.meter i{display:block;height:100%;background:#D95D39}.meter i.bad{background:#F08369}.status{padding:11px 13px;border-radius:8px;margin:9px 0;background:#232A35;border:1px solid #6C624D;color:#EAE4D8;font-size:13px;line-height:1.5}.status.bad{background:#35212A;border-color:#A95B63;color:#FFD4D1}.status.warn{background:#372D20;border-color:#94723D;color:#F4D59B}.craft{min-height:310px;display:flex;align-items:center;justify-content:center;position:relative;background:radial-gradient(circle,#293443 0%,#090B10 65%);border-radius:12px;border:1px solid #343A46;overflow:hidden}.craft:before{content:'';position:absolute;inset:0;background-image:linear-gradient(#D5AC6118 1px,transparent 1px),linear-gradient(90deg,#D5AC6118 1px,transparent 1px);background-size:24px 24px}.craft svg{width:95%;max-height:300px;z-index:1;filter:drop-shadow(0 0 15px #D5AC6144)}.note{font-size:11px;color:#8995A5}.telemetry{display:grid;grid-template-columns:1fr 1fr;gap:9px}.timeline{display:flex;flex-direction:column;gap:12px;margin-top:18px}.event{border-left:2px solid #D95D39;padding:11px 15px;background:#202633;border-radius:0 8px 8px 0;color:#EAE4D8;font-size:13px}.score{font-size:80px;font-weight:800;letter-spacing:-.07em;color:#D5AC61}.score small{font-size:20px;color:#8995A5}.result-success{color:#89BDA2}.result-failure{color:#F08369}.result-partial{color:#D5AC61}.barrow{display:grid;grid-template-columns:160px 1fr 45px;align-items:center;gap:12px;margin:11px 0;font-size:12px}.barrow .meter{margin:0}.foot{margin-top:50px;border-top:1px solid #343A46;padding-top:20px;color:#8995A5;font-size:12px}.flight-scene{height:250px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 80% 80%,#303847,#090B10 70%);border-radius:12px;margin:20px 0}.flight-scene .world{position:absolute;right:-85px;bottom:-210px;width:410px;height:410px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#D6C5AE,#6B7078 55%,#242B36);box-shadow:0 0 60px #D5AC6133}.flight-scene .ship{position:absolute;top:42%;left:10%;font-size:52px;animation:fly 4s ease-in-out forwards;filter:drop-shadow(0 0 12px #D5AC61)}@keyframes fly{to{left:72%;top:25%;transform:rotate(-25deg)}}@media(max-width:1100px){.designer{grid-template-columns:1fr 1fr}.designer>.panel:last-child{grid-column:1/-1}}@media(max-width:700px){.shell{padding:15px}.hero,.grid2,.designer{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.designer>.panel:last-child{grid-column:auto}.hero{gap:0}.orbit{height:250px}.orbit:before{width:200px;height:200px}.orbit:after{width:260px;height:260px}.planet{width:115px;height:115px}.orbiter{font-size:32px}.topline{align-items:flex-start}.barrow{grid-template-columns:115px 1fr 32px}}
+
+/* v0.2 human-first design */
+:root{--cream:#EAE4D8;--amber:#D5AC61}body{background:radial-gradient(ellipse at 80% 0%,#2B3441,#090B10 62%)}.logo{letter-spacing:.07em}.header{border-bottom:2px solid #D5AC61}.eyebrow{color:var(--amber)}button.primary{background:var(--amber);border-color:var(--amber);color:#090B10}button.primary:hover{background:#E7C586}.panel{box-shadow:0 7px 24px #00000044}.mission-card{overflow:hidden;position:relative}.mission-photo{height:135px;background-size:cover;background-position:center;border-radius:9px;filter:saturate(.75);margin:12px 0}.hero-moon{position:absolute;width:280px;height:280px;object-fit:cover;border-radius:50%;opacity:.45;mix-blend-mode:screen}.orbit-label{position:absolute;bottom:12px;font:11px monospace;color:#D5AC61;letter-spacing:.1em}.fact-card{min-height:210px;border-top:3px solid #D5AC61}.fact-card h2{font-size:19px;line-height:1.4}.fact-card a{color:#D5AC61;font-size:12px}.arcade-layout{display:grid;grid-template-columns:minmax(0,2.4fr) minmax(250px,1fr);gap:14px}.arcade-layout canvas{display:block;width:100%;height:auto;border-radius:10px;border:1px solid #55505A;background:#090B10}.arcade-controls{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin-top:13px}.arcade-hud{font-family:monospace;line-height:2.1;font-size:14px;color:#EAE4D8}.arcade-hud strong{font-size:35px;color:#D5AC61}.fact-ticker{border-left:3px solid #D5AC61;background:#222936;padding:15px;margin:22px 0;line-height:1.6}.touch-controls{display:flex;gap:8px;margin-top:12px}.touch-controls button{min-width:50px}.arcade-sidebar{position:relative}@media(max-width:850px){.arcade-layout{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.001ms!important;transition-duration:.001ms!important}}
+
+/* TYPOGRAPHY ONLY: Orbitron + Star Jedi-inspired cinematic titles.
+   The proprietary/fan-created Star Jedi font is NOT bundled. If you have
+   independently licensed a copy, place Starjedi.ttf in assets/fonts/.
+   Without it, the cinematic headings use heavy Orbitron instead. */
+@font-face {font-family:'Star Jedi Local';src:url('./assets/fonts/Starjedi.ttf') format('truetype');font-display:swap;}
+:root{font-family:Inter,Arial,sans-serif;}
+.logo,h1,h2,h3,.mission-card h2,.score,.arcade-hud strong{font-family:'Orbitron', 'Arial Black', sans-serif;}
+.logo,h1{font-family:'Star Jedi Local','Orbitron','Arial Black',sans-serif;font-weight:900;letter-spacing:.045em;}
+h1{letter-spacing:.025em;line-height:1.16;}
+h2{letter-spacing:.025em;line-height:1.3;}
+h3{letter-spacing:.035em;line-height:1.35;}
+.logo{letter-spacing:.08em;}
+button,.category select{font-family:'Orbitron',Arial,sans-serif;font-size:.8em;letter-spacing:.025em;}
+.eyebrow,.mono,.metric small,.tag,.step,.arcade-hud,.orbit-label{font-family:'IBM Plex Mono',Consolas,monospace;}
+.metric strong,.score{font-variant-numeric:tabular-nums;}
+@media(max-width:700px){h1{overflow-wrap:anywhere;}}
+
+/* COLOUR PALETTE ONLY: NASA Heritage x Obsidian Gold.
+   Typography, dimensions, interactions, and simulation are unchanged. */
+:root{--cream:#EAE4D8;--amber:#D5AC61;color:#EAE4D8;background:#090B10}
+body{background:radial-gradient(ellipse at 80% 0%,#222C3A,#090B10 62%)}
+.panel{background:rgba(24,29,41,.94)}
+button.primary{background:#D95D39;border-color:#D95D39;color:#FFFFFF}
+button.primary:hover{background:#EF7955;border-color:#EF7955}
+.eyebrow,.logo span{color:#D5AC61}
+.category select{background:#10141D;color:#EAE4D8;border-color:#50535A}
+.instrument input{accent-color:#D95D39}
+
+
+/* STAGE 1 ANIMATION ONLY. No palette, typography, layout or game logic changes. */
+/* Animated, noninteractive atmospheric galaxy layer behind the existing interface. */
+body::before{content:"";position:fixed;inset:-35vmax;pointer-events:none;z-index:0;
+ background:
+ radial-gradient(ellipse 15% 7% at 51% 47%,rgba(213,172,97,.17),transparent 80%),
+ radial-gradient(ellipse 30% 10% at 50% 49%,rgba(217,93,57,.10),transparent 82%),
+ conic-gradient(from 15deg at 50% 50%,transparent 0deg,rgba(213,172,97,.055) 40deg,transparent 95deg,rgba(217,93,57,.045) 160deg,transparent 225deg,rgba(213,172,97,.055) 295deg,transparent 360deg);
+ opacity:.7;animation:mv-galaxy-turn 120s linear infinite;will-change:transform}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+ background-image:radial-gradient(circle,rgba(234,228,216,.46) .7px,transparent 1.3px),radial-gradient(circle,rgba(213,172,97,.38) .8px,transparent 1.4px);
+ background-size:157px 149px,233px 219px;background-position:14px 29px,84px 97px;
+ opacity:.26;animation:mv-stars-drift 85s linear infinite}
+.shell{position:relative;z-index:1}
+@keyframes mv-galaxy-turn{to{transform:rotate(360deg)}}
+@keyframes mv-stars-drift{to{background-position:171px -120px,317px -122px}}
+/* Responsive feedback without changing original sizing or positioning. */
+button:not(:disabled){transition:background-color .2s ease,border-color .2s ease,color .2s ease,box-shadow .22s ease,transform .18s ease}
+button:not(:disabled):hover{box-shadow:0 0 0 1px rgba(213,172,97,.15),0 0 22px rgba(217,93,57,.14);transform:translateY(-2px)}
+button:not(:disabled):active{transform:translateY(1px) scale(.985);box-shadow:0 0 0 2px rgba(213,172,97,.2)}
+button:focus-visible,.category select:focus-visible{outline:2px solid #D5AC61;outline-offset:3px}
+/* Existing status notices become gently animated pop-up panels. */
+.status{animation:mv-notice-in .36s cubic-bezier(.2,.8,.2,1) both}
+@keyframes mv-notice-in{from{opacity:0;transform:translateY(9px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+/* Action confirmation toast is an overlay, not a new game screen. */
+.mv-toast{position:fixed;right:22px;bottom:22px;z-index:1000;max-width:min(340px,calc(100vw - 44px));
+ padding:13px 17px;border:1px solid #D5AC61;border-left:3px solid #D95D39;border-radius:9px;
+ background:#181D29;color:#EAE4D8;box-shadow:0 12px 35px rgba(0,0,0,.45);
+ font-family:'IBM Plex Mono',Consolas,monospace;font-size:12px;line-height:1.5;
+ pointer-events:none;animation:mv-toast-in .3s ease both}
+.mv-toast.mv-toast-out{animation:mv-toast-out .22s ease forwards}
+@keyframes mv-toast-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes mv-toast-out{to{opacity:0;transform:translateY(9px)}}
+@media(prefers-reduced-motion:reduce){body::before,body::after{animation:none!important}button:not(:disabled){transition:none!important}button:not(:disabled):hover,button:not(:disabled):active{transform:none!important}.status,.mv-toast,.mv-toast.mv-toast-out{animation:none!important}}
+
+/* BACKGROUND VISIBILITY FIX ONLY.
+   Earlier galaxy was so diffuse it disappeared against the page.
+   Keep the existing UI, motion effects, colours and scripts intact. */
+body::before{
+  inset:auto;
+  width:min(105vmax,1100px);
+  height:min(105vmax,1100px);
+  left:57%;
+  top:44%;
+  border-radius:50%;
+  transform-origin:50% 50%;
+  background:
+    radial-gradient(ellipse 48% 10% at 50% 50%,rgba(234,228,216,.14) 0%,rgba(213,172,97,.18) 32%,transparent 90%),
+    conic-gradient(from 25deg,
+      transparent 0deg,rgba(213,172,97,.20) 23deg,rgba(217,93,57,.10) 48deg,transparent 81deg,
+      rgba(213,172,97,.12) 105deg,transparent 149deg,
+      rgba(217,93,57,.16) 189deg,transparent 233deg,
+      rgba(213,172,97,.19) 279deg,transparent 322deg),
+    radial-gradient(ellipse at center,rgba(217,93,57,.12),transparent 64%);
+  mask-image:radial-gradient(ellipse,black 12%,transparent 67%);
+  opacity:.95;
+  animation:mv-visible-galaxy 100s linear infinite;
+}
+@keyframes mv-visible-galaxy{
+  from{transform:translate(-50%,-50%) rotate(0deg)}
+  to{transform:translate(-50%,-50%) rotate(360deg)}
+}
+body::after{opacity:.56}
+@media(prefers-reduced-motion:reduce){body::before{animation:none!important;transform:translate(-50%,-50%) rotate(0deg)}}
+
+/* AUDIO CONTROLS ONLY: fixed corner overlay, original layout untouched. */
+#mv-audio-controls{position:fixed;left:16px;bottom:16px;z-index:1100;color:#EAE4D8;
+ font-family:'IBM Plex Mono',Consolas,monospace;font-size:11px}
+#mv-audio-open,#mv-audio-panel button{background:#181D29;color:#EAE4D8;
+ border:1px solid #D5AC61;border-radius:7px;padding:9px 12px;cursor:pointer}
+#mv-audio-panel{margin-top:8px;width:min(330px,calc(100vw - 32px));background:#181D29;
+ border:1px solid #454B57;border-radius:10px;padding:14px;box-shadow:0 12px 35px #0009}
+#mv-audio-panel[hidden]{display:none}
+.mv-audio-title{font-weight:700;color:#D5AC61;margin-bottom:12px}
+.mv-audio-title span{font-weight:400;color:#8995A5;font-size:9px;display:block;margin-top:4px}
+.mv-audio-row{display:flex;gap:10px;align-items:center;justify-content:space-between;margin:10px 0}
+.mv-audio-row button{min-width:105px;font:inherit}
+.mv-audio-row label{display:flex;align-items:center;gap:6px;color:#8995A5;font-size:10px}
+.mv-audio-row input{width:82px;accent-color:#D95D39}
+#mv-audio-panel p{font-size:10px;color:#8995A5;line-height:1.5;margin:12px 0 0}
+@media(max-width:560px){#mv-audio-controls{bottom:8px;left:8px}}
+
+/* LIVE SPACECRAFT VISUALISATION ONLY: other game styling remains unchanged. */
+.mv-craft-stage{isolation:isolate;min-height:310px}
+.mv-photo-reference{position:absolute;inset:0;z-index:0;background-image:linear-gradient(90deg,#090B10E8,#090B1090),url('https://images-assets.nasa.gov/image/PIA00405/PIA00405~orig.jpg');background-size:cover;background-position:center;opacity:.32;pointer-events:none}
+.mv-craft-model{position:relative;z-index:2;overflow:visible;max-height:270px!important;animation:mv-float 8s ease-in-out infinite}
+.mv-solar-wing,.mv-payload,.mv-antenna,.mv-propulsion{animation:mv-attach .55s cubic-bezier(.18,.8,.22,1) both;transform-box:fill-box;transform-origin:center}
+.mv-solar-wing{animation-duration:.75s}.mv-payload{animation-delay:.15s}.mv-antenna{animation-delay:.2s}
+.mv-craft-caption{position:absolute;bottom:10px;left:14px;right:14px;z-index:3;display:flex;justify-content:space-between;gap:10px;font:10px 'IBM Plex Mono',monospace;color:#D5AC61;letter-spacing:.06em;pointer-events:none}
+.mv-craft-caption span{color:#EAE4D8}
+@keyframes mv-float{0%,100%{translate:0 0}50%{translate:0 -7px}}
+@keyframes mv-attach{from{opacity:0;scale:.83}to{opacity:1;scale:1}}
+@media(prefers-reduced-motion:reduce){.mv-craft-model,.mv-solar-wing,.mv-payload,.mv-antenna,.mv-propulsion{animation:none!important}}
+
+/* Session leaderboard, local guide and flight trajectory. Existing theme preserved. */
+.mv-pilot-panel{border-top:1px solid #454B57;margin-top:18px;padding-top:16px}.mv-pilot-panel label{display:block;color:#D5AC61;font-size:11px;margin:10px 0}.mv-pilot-panel input{display:block;width:100%;margin-top:5px;background:#090B10;border:1px solid #454B57;border-radius:7px;color:#EAE4D8;padding:9px}.mv-leaderboard{padding-left:24px;max-height:220px;overflow:auto}.mv-leaderboard li{padding:8px 0;border-bottom:1px solid #343A46;font-size:12px}.mv-leaderboard li span{display:block;color:#8995A5}.mv-pilot-panel button{font-size:10px;padding:8px 10px}.mv-flight-route{position:absolute;inset:0;width:100%;height:100%;overflow:visible;z-index:2}.mv-flight-upgrade .ship{display:none}.mv-flight-label{position:absolute;left:18px;bottom:14px;color:#D5AC61;font:11px monospace;z-index:3}.mv-flight-upgrade .world{opacity:.8}
+#mv-guide-widget{position:fixed;right:16px;bottom:16px;z-index:1200;font-family:Inter,system-ui,sans-serif}#mv-guide-open{background:#181D29;border:1px solid #D5AC61;color:#EAE4D8;font-size:12px;box-shadow:0 8px 25px #0009}#mv-guide-panel{position:absolute;bottom:52px;right:0;width:min(355px,calc(100vw - 24px));background:#181D29;border:1px solid #D5AC61;border-radius:12px;box-shadow:0 12px 40px #000b;padding:14px}#mv-guide-panel[hidden]{display:none}.mv-guide-head{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#D5AC61;font-size:12px}.mv-guide-head span{font-size:9px;color:#8995A5}#mv-guide-history{max-height:260px;min-height:110px;overflow:auto;margin:12px 0;display:flex;flex-direction:column;gap:8px}#mv-guide-history p{font-size:12px;line-height:1.5;margin:0;padding:9px;border-radius:8px}.mv-guide-question{background:#343A46;align-self:flex-end}.mv-guide-reply{background:#242C3A;align-self:flex-start}#mv-guide-form{display:flex;gap:6px}#mv-guide-input{min-width:0;flex:1;background:#090B10;border:1px solid #454B57;color:#EAE4D8;padding:10px;border-radius:7px}#mv-guide-form button{padding:9px;font-size:11px}.mv-guide-disclaimer{color:#8995A5;font-size:10px;margin:10px 0 0}@media(max-width:500px){#mv-guide-widget{right:8px;bottom:8px}#mv-guide-panel{width:calc(100vw - 16px)}}
+
+/* NASA Archives: gallery-only styling; existing game styles untouched. */
+.mv-gallery-warning{margin:18px 0;padding:15px 18px;border:1px solid #D5AC61;border-radius:10px;background:rgba(213,172,97,.08);color:#EAE4D8;font-size:13px;line-height:1.6}
+.mv-gallery-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 24px}.mv-gallery-tabs button{padding:11px 14px}.mv-gallery-tabs button.selected{border-color:#D5AC61;color:#D5AC61;background:rgba(213,172,97,.13)}
+.mv-gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,285px),1fr));gap:18px}.mv-gallery-card{border:1px solid rgba(213,172,97,.25);border-radius:12px;overflow:hidden;background:#181D29}.mv-gallery-card>a{display:block;background:#090B10;min-height:190px}.mv-gallery-card img{width:100%;height:205px;object-fit:cover;display:block;transition:transform .25s}.mv-gallery-card img:hover{transform:scale(1.03)}.mv-gallery-meta{padding:18px}.mv-gallery-meta h3{margin:8px 0 12px;font-size:17px}.mv-gallery-meta p{font-size:12px;line-height:1.55}.mv-gallery-meta a{font-size:12px;color:#D5AC61}.mv-image-error img{opacity:.1}.mv-image-error>a:after{content:'IMAGE UNAVAILABLE · VIEW NASA RECORD';display:block;padding:10px;font-size:11px;color:#D5AC61}

@@ -1,0 +1,1 @@
+Optional: Put a properly licensed Starjedi.ttf here to enable the original Star Jedi face for the game logo and major headings. It is not included. Without it, Orbitron is used. Orbitron/Inter/IBM Plex Mono are loaded from Google Fonts when online; offline fallbacks are used otherwise.
